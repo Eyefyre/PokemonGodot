@@ -1,0 +1,154 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://assets/UI/GymLeader1Face.png" type="Texture" id=1]
+[ext_resource path="res://assets/UI/TrainerCardBackground.png" type="Texture" id=2]
+[ext_resource path="res://assets/UI/GymLeader5Face.png" type="Texture" id=3]
+[ext_resource path="res://assets/UI/GymLeader6Face.png" type="Texture" id=4]
+[ext_resource path="res://assets/UI/GymLeader7Face.png" type="Texture" id=5]
+[ext_resource path="res://assets/UI/GymLeader8Face.png" type="Texture" id=6]
+[ext_resource path="res://assets/UI/GymLeader2Face.png" type="Texture" id=7]
+[ext_resource path="res://assets/UI/GymLeader3Face.png" type="Texture" id=8]
+[ext_resource path="res://assets/UI/GymLeader4Face.png" type="Texture" id=9]
+[ext_resource path="res://assets/UI/fonts/GameFont.tres" type="DynamicFont" id=10]
+
+[node name="PlayerStatScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Background" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Badge1" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 24.0
+margin_top = 96.0
+margin_right = -120.0
+margin_bottom = -32.0
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 1
+
+[node name="Badge2" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 56.0
+margin_top = 96.0
+margin_right = -88.0
+margin_bottom = -32.0
+texture = ExtResource( 7 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Badge3" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 88.0
+margin_top = 96.0
+margin_right = -56.0
+margin_bottom = -32.0
+texture = ExtResource( 8 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Badge4" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 120.0
+margin_top = 96.0
+margin_right = -24.0
+margin_bottom = -32.0
+texture = ExtResource( 9 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Badge5" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 24.0
+margin_top = 120.0
+margin_right = -120.0
+margin_bottom = -8.0
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Badge6" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 56.0
+margin_top = 120.0
+margin_right = -88.0
+margin_bottom = -8.0
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Badge7" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 88.0
+margin_top = 120.0
+margin_right = -56.0
+margin_bottom = -8.0
+texture = ExtResource( 5 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Badge8" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 120.0
+margin_top = 120.0
+margin_right = -24.0
+margin_bottom = -8.0
+texture = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="PlayerName" type="RichTextLabel" parent="."]
+margin_left = 56.0
+margin_top = 15.0
+margin_right = 122.0
+margin_bottom = 25.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = ExtResource( 10 )
+text = "AAAAAAA"
+fit_content_height = true
+
+[node name="PlayTime" type="RichTextLabel" parent="."]
+margin_left = 69.0
+margin_top = 48.0
+margin_right = 125.0
+margin_bottom = 58.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = ExtResource( 10 )
+text = "0:00"
+fit_content_height = true
+scroll_active = false
+
+[node name="PlayerMoney" type="RichTextLabel" parent="."]
+margin_left = 72.0
+margin_top = 31.0
+margin_right = 120.0
+margin_bottom = 41.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = ExtResource( 10 )
+text = "3000"
+fit_content_height = true
+scroll_active = false

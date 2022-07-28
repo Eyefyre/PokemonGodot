@@ -1,0 +1,201 @@
+{
+    "1": {
+        "type_name": "NORMAL",
+        "super_effective_against": [],
+        "not_effective_against": [
+            13
+        ],
+        "no_effect_against": [
+            14
+        ]
+    },
+    "2": {
+        "type_id": 2,
+        "type_name": "FIRE",
+        "super_effective_against": [
+            5,
+            6,
+            12
+        ],
+        "not_effective_against": [
+            2,
+            3,
+            13,
+            15
+        ],
+        "no_effect_against": []
+    },
+    "3": {
+        "type_name": "WATER",
+        "super_effective_against": [
+            2,
+            9,
+            13
+        ],
+        "not_effective_against": [
+            3
+        ],
+        "no_effect_against": []
+    },
+    "4": {
+        "type_name": "ELECTRIC",
+        "super_effective_against": [
+            3,
+            10
+        ],
+        "not_effective_against": [
+            4,
+            5,
+            15
+        ],
+        "no_effect_against": [
+            9
+        ]
+    },
+    "5": {
+        "type_name": "GRASS",
+        "super_effective_against": [
+            3,
+            9,
+            13
+        ],
+        "not_effective_against": [
+            2,
+            5,
+            8,
+            10,
+            12,
+            15
+        ],
+        "no_effect_against": []
+    },
+    "6": {
+        "type_name": "ICE",
+        "super_effective_against": [
+            5,
+            10,
+            15
+        ],
+        "not_effective_against": [
+            3,
+            6
+        ],
+        "no_effect_against": []
+    },
+    "7": {
+        "type_name": "FIGHTING",
+        "super_effective_against": [
+            1,
+            6,
+            13
+        ],
+        "not_effective_against": [
+            8,
+            10,
+            11,
+            12
+        ],
+        "no_effect_against": [
+            14
+        ]
+    },
+    "8": {
+        "type_name": "POISON",
+        "super_effective_against": [
+            5,
+            12
+        ],
+        "not_effective_against": [
+            8,
+            9,
+            13,
+            14
+        ],
+        "no_effect_against": []
+    },
+    "9": {
+        "type_name": "GROUND",
+        "super_effective_against": [
+            2,
+            4,
+            8,
+            13
+        ],
+        "not_effective_against": [
+            5,
+            12
+        ],
+        "no_effect_against": [
+            10
+        ]
+    },
+    "10": {
+        "type_name": "FLYING",
+        "super_effective_against": [
+            5,
+            7,
+            12
+        ],
+        "not_effective_against": [
+            4,
+            13
+        ],
+        "no_effect_against": []
+    },
+    "11": {
+        "type_name": "PSYCHIC",
+        "super_effective_against": [
+            7,
+            8
+        ],
+        "not_effective_against": [
+            11
+        ],
+        "no_effect_against": []
+    },
+    "12": {
+        "type_name": "BUG",
+        "super_effective_against": [
+            5,
+            8,
+            11
+        ],
+        "not_effective_against": [
+            2,
+            7,
+            10,
+            14
+        ],
+        "no_effect_against": []
+    },
+    "13": {
+        "type_name": "ROCK",
+        "super_effective_against": [
+            2,
+            6,
+            10,
+            12
+        ],
+        "not_effective_against": [
+            7,
+            9
+        ],
+        "no_effect_against": []
+    },
+    "14": {
+        "type_name": "GHOST",
+        "super_effective_against": [
+            14
+        ],
+        "not_effective_against": [],
+        "no_effect_against": []
+    },
+    "15": {
+        "type_name": "DRAGON",
+        "super_effective_against": [
+            15
+        ],
+        "not_effective_against": [],
+        "no_effect_against": []
+    }
+}

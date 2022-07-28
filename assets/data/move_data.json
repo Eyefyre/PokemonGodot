@@ -1,0 +1,65 @@
+{
+    "1":{
+        "name": "GROWL",
+        "type_id": 1,
+        "accuracy": 100,
+        "max_pp": 40,
+        "power": null,
+        "category": 2,
+        "description": "Lowers the target's Attack by 1 stage."
+    },
+    "2":{
+        "name": "THUNDERSHOCK",
+        "type_id": 4,
+        "accuracy": 100,
+        "max_pp": 30,
+        "power": 40,
+        "category": 1,
+        "description": "Has a ~10% chance to paralyze the target."
+    },
+    "3":{
+        "name": "TACKLE",
+        "type_id": 1,
+        "accuracy": 95,
+        "max_pp": 35,
+        "power": 35,
+        "category": 0,
+        "description": "Damages the target."
+    },
+    "4":{
+        "name": "TAIL WHIP",
+        "type_id": 1,
+        "accuracy": 100,
+        "max_pp": 30,
+        "power": null,
+        "category": 2,
+        "description": "Lowers the target's Defense by 1 stage."
+    },
+    "5":{
+        "name": "QUICK ATTACK",
+        "type_id": 1,
+        "accuracy": 100,
+        "max_pp": 30,
+        "power": 40,
+        "category": 0,
+        "description": "Usually goes first."
+    },
+    "6":{
+        "name": "SAND ATTACK",
+        "type_id": 9,
+        "accuracy": 100,
+        "max_pp": 15,
+        "power": null,
+        "category": 2,
+        "description": "Lowers the target's Accuracy by 1 stage."
+    },
+    "7":{
+        "name": "GUST",
+        "type_id": 1,
+        "accuracy": 100,
+        "max_pp": 35,
+        "power": 40,
+        "category": 0,
+        "description": "Damages the target."
+    }
+}
