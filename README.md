@@ -6,7 +6,9 @@ Battles have not been implemented yet either.
 
 Controls:
 Z = Accept/Activate
+
 X = Back
+
 Enter = Start/Open Menu
 
 Please let me know if you notice any bugs or issues.
